@@ -36,11 +36,11 @@
 
 ### Front-end:
 <div display="flex" flex-direction="row" justify-content="space-between">
-<img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/signIn.png" alt="SignIn" width="300" height="280">
+<img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/signIn.png" alt="SignIn" width="50%" height="280">
 
-<img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/EnrollCreate.png" alt="EnrollCreate" width="280" height="auto">
+<img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/EnrollCreate.png" alt="EnrollCreate" width="50%" height="auto">
 
-<img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/PlanList.png" alt="PlanList" width="600" height="auto">
+<img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/PlanList.png" alt="PlanList" width="100%" height="auto">
 </div>
 
 
