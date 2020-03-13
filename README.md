@@ -4,6 +4,7 @@
 * [2. Iniciando o projeto](#2-Iniciando)
 
 ## 1. Conceitos abordados:
+
   1.  Back-end:
       1.  Migration a DB SQL.
       2.  Criação de Models.
@@ -28,6 +29,7 @@
   3.  Mobile:
 
 ## 2. Descrição do projeto:
+
     1.  Um aplicativo que permite o cadastro de administradores e alunos, planos e matrículas de alunos, atendimento a dúvidas.
     2.  Pelo website, os administradores cadastram alunos, planos, matriculas e respondem a dúvidas de alunos.
     3.  O aplicativo mobile permite a alunos fazerem check-in nas academias, verificar o seu plano, e perguntar as suas dúvidas.
