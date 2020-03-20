@@ -35,11 +35,12 @@
   3.  O aplicativo mobile permite a alunos fazerem check-in nas academias, verificar o seu plano, e perguntar as suas dúvidas.
 
 ### Front-end
+____
 
 ### Sign In
 <img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/signIn.png" alt="SignIn" width="100%" height="auto">
 
-### Criar matrícula de aluno
+### Cadastro de matrícula de aluno
 <img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/EnrollCreate.png" alt="EnrollCreate" width="100%" height="auto">
 
 ### Lista de planos de alunos
