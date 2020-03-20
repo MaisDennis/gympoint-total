@@ -34,51 +34,52 @@
   2.  Pelo website, os administradores cadastram alunos, planos, matriculas e respondem a dúvidas de alunos.
   3.  O aplicativo mobile permite a alunos fazerem check-in nas academias, verificar o seu plano, e perguntar as suas dúvidas.
 
-### Front-end:
-<div display="flex" flex-direction="row" justify-content="space-between">
+### Front-end
+
+### Sign In
 <img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/signIn.png" alt="SignIn" width="100%" height="auto">
 
+### Criar matrícula de aluno
 <img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/EnrollCreate.png" alt="EnrollCreate" width="100%" height="auto">
 
+### Lista de planos de alunos
 <img src="https://github.com/MaisDennis/GoStack-GymPoint/blob/master/images/PlanList.png" alt="PlanList" width="100%" height="auto">
-</div>
-
 
 ## 3. Iniciando o projeto:
 
 ### 1. Back-end:
-        ```
-        docker database2
-        docker redisgympoint
-        yarn dev
-        ```
+       ```
+       docker database2
+       docker redisgympoint
+       yarn dev
+       ```
 ### 2. Front-end:
-        ```
-        yarn start
-        ```
+       ```
+       yarn start
+       
   
 ### 3. Mobile
-        Esse projeto foi desenvolvido para o ambiente mobile.
-        No desenvolvimento do projeto foi usado o emulador mobile: Genymotion.
-        Instruções para a instalação do Genymotion:
-        https://docs.rocketseat.dev/ambiente-react-native/android/emulador
-        Iiniciar o GenyMotion:
-        ```
-        ./genymotion (na pasta genymotion)
-        ```
-        Dentro da pasta do projeto, Para iniciar o bundle:
-        ```
-        yarn react-native start
-        ou
-        yarn react-native start --reset-cache
-        ```
-        Redirecionamento de porta para o uso do debugger: Reactotron.
-        ```
-        adb reverse tcp:9090 tcp:9090 ( redirecionar à porta do Reactotron)
-        ```
-        Iniciar o app:
-        ```
-        yarn react-native run-android
-        ```
-        obs. O aplicativo foi desenvolvido para o ambiente Android.
+       Esse projeto foi desenvolvido para o ambiente mobile.
+       No desenvolvimento do projeto foi usado o emulador mobile: Genymotion.
+       Instruções para a instalação do Genymotion:
+       https://docs.rocketseat.dev/ambiente-react-native/android/emulador
+       Iniciar o GenyMotion:
+       ```
+       ./genymotion (na pasta genymotion)
+       ```
+       Dentro da pasta do projeto, Para iniciar o bundle:
+       ```
+       yarn react-native start
+       ou
+       yarn react-native start --reset-cache
+       ```
+       Redirecionamento de porta para o uso do debugger: Reactotron.
+       ```
+       adb reverse tcp:9090 tcp:9090 ( redirecionar à porta do Reactotron)
+       ```
+       Iniciar o app:
+       ```
+       yarn react-native run-android
+       ```
+       obs. O aplicativo foi desenvolvido para o ambiente Android.
 
