@@ -56,7 +56,7 @@
 ### 2. Front-end:
        ```
        yarn start
-       
+       ```
   
 ### 3. Mobile
        Esse projeto foi desenvolvido para o ambiente mobile.
