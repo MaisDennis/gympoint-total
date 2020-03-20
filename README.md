@@ -48,38 +48,37 @@
 ## 3. Iniciando o projeto:
 
 ### 1. Back-end:
-       ```
-       docker database2
-       docker redisgympoint
-       yarn dev
-       ```
+   ```
+   docker database2
+   docker redisgympoint
+   yarn dev
+   ```  
 ### 2. Front-end:
-       ```
-       yarn start
-       ```
+   ```
+   yarn start
+   ```
   
 ### 3. Mobile
-       Esse projeto foi desenvolvido para o ambiente mobile.
-       No desenvolvimento do projeto foi usado o emulador mobile: Genymotion.
-       Instruções para a instalação do Genymotion:
-       https://docs.rocketseat.dev/ambiente-react-native/android/emulador
-       Iniciar o GenyMotion:
-       ```
-       ./genymotion (na pasta genymotion)
-       ```
-       Dentro da pasta do projeto, Para iniciar o bundle:
-       ```
-       yarn react-native start
-       ou
-       yarn react-native start --reset-cache
-       ```
-       Redirecionamento de porta para o uso do debugger: Reactotron.
-       ```
-       adb reverse tcp:9090 tcp:9090 ( redirecionar à porta do Reactotron)
-       ```
-       Iniciar o app:
-       ```
-       yarn react-native run-android
-       ```
-       obs. O aplicativo foi desenvolvido para o ambiente Android.
-
+   Esse projeto foi desenvolvido para o ambiente mobile.
+   No desenvolvimento do projeto foi usado o emulador mobile: Genymotion.
+   Instruções para a instalação do Genymotion:
+   https://docs.rocketseat.dev/ambiente-react-native/android/emulador
+   Iniciar o GenyMotion:
+   ```
+   ./genymotion (na pasta genymotion)
+   ```
+   Dentro da pasta do projeto, Para iniciar o bundle:
+   ```
+   yarn react-native start
+   ou
+   yarn react-native start --reset-cache
+   ```
+   Redirecionamento de porta para o uso do debugger: Reactotron.
+   ```
+   adb reverse tcp:9090 tcp:9090 ( redirecionar à porta do Reactotron)
+   ```
+   Iniciar o app:
+   ```
+   yarn react-native run-android
+   ```
+   obs. O aplicativo foi desenvolvido para o ambiente Android.
