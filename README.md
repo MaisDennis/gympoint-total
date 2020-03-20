@@ -46,18 +46,18 @@
 
 ## 3. Iniciando o projeto:
 
-  1.  Back-end:
+### 1. Back-end:
         ```
         docker database2
         docker redisgympoint
         yarn dev
         ```
-  2.  Front-end:
+### 2. Front-end:
         ```
         yarn start
         ```
   
-  3.  Mobile
+### 3. Mobile
         Esse projeto foi desenvolvido para o ambiente mobile.
         No desenvolvimento do projeto foi usado o emulador mobile: Genymotion.
         Instruções para a instalação do Genymotion:
@@ -81,4 +81,4 @@
         yarn react-native run-android
         ```
         obs. O aplicativo foi desenvolvido para o ambiente Android.
-     
+
