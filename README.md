@@ -1,8 +1,8 @@
 # Gympoint | GoStack 9.0
 
-* [1. Conceitos abordados](#1-Conceitos)
-* [2. Descrição do projeto](#2-Descrição)
-* [3. Iniciando o projeto](#2-Iniciando)
+* [1. Conceitos abordados](#1-conceitos-abordados)
+* [2. Descrição do projeto](#2-descrição-do-projeto)
+* [3. Iniciando o projeto](#2-iniciando-o-projeto)
 
 ## 1. Conceitos abordados:
 
@@ -58,4 +58,27 @@
         ```
   
   3.  Mobile
+        Esse projeto foi desenvolvido para o ambiente mobile.
+        No desenvolvimento do projeto foi usado o emulador mobile: Genymotion.
+        Instruções para a instalação do Genymotion:
+        https://docs.rocketseat.dev/ambiente-react-native/android/emulador
+        Iiniciar o GenyMotion:
+        ```
+        ./genymotion (na pasta genymotion)
+        ```
+        Dentro da pasta do projeto, Para iniciar o bundle:
+        ```
+        yarn react-native start
+        ou
+        yarn react-native start --reset-cache
+        ```
+        Redirecionamento de porta para o uso do debugger: Reactotron.
+        ```
+        adb reverse tcp:9090 tcp:9090 ( redirecionar à porta do Reactotron)
+        ```
+        Iniciar o app:
+        ```
+        yarn react-native run-android
+        ```
+        obs. O aplicativo foi desenvolvido para o ambiente Android.
      
